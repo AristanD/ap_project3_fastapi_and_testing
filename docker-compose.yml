@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+
+  postgres:
+    image: postgres:15
+    container_name: links_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: links_db
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    container_name: links_redis
+    ports:
+      - "6379:6379"

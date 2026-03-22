@@ -1,0 +1,18 @@
+# Проект 3 (fastapi)
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+redis
+pydantic
+pydantic_settings
+python-dotenv
+python-jose
+passlib[bcrypt]
+
+# Проект 4 (тестирование)
+pytest
+pytest-cov
+pytest-mock
+httpx
+locust
